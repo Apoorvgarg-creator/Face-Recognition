@@ -1,4 +1,3 @@
-# Write a Python Script that captures images from your webcam video stream
 # Extracts all Faces from the image frame (using haarcascades)
 # Stores the Face information into numpy arrays
 
@@ -15,8 +14,7 @@ import numpy as np
 cap = cv2.VideoCapture(0)
 
 # Face Detection
-face_cascade = cv2.CascadeClassifier("/Users/apoorvgarg/Documents/GitHub/machine-learning-online-2018/6. Project - "
-                                     "Face Recognition/Face Recognition Project/haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 skip = 0
 face_data = []
