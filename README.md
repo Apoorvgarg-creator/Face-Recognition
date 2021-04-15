@@ -1,4 +1,4 @@
-# CB_lecture_ML
+# Face recognition through haarcascade and Knn
 Machine learning course 
 
 Face collect.py --> Stores the existing detected face
