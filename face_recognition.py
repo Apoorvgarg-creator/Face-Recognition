@@ -1,6 +1,6 @@
-# Recognise Faces using some classification algorithm - like Logistic, KNN, SVM etc.
+# Faces are recognised with the help of KNN (supervised learning algorithm)
 
-
+# Pipeline -->
 # 1. load the training data (numpy arrays of all the persons)
 		# x- values are stored in the numpy arrays
 		# y-values we need to assign for each person
@@ -46,8 +46,7 @@ def knn(train, test, k=5):
 cap = cv2.VideoCapture(0)
 
 # Face Detection
-face_cascade = cv2.CascadeClassifier("/Users/apoorvgarg/Documents/GitHub/machine-learning-online-2018/6. Project - "
-                                     "Face Recognition/Face Recognition Project/haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
 
 skip = 0
 dataset_path = '/data/'
