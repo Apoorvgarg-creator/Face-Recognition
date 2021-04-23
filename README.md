@@ -1,5 +1,5 @@
 # Face recognition through haarcascade and Knn
-Machine learning course 
+Machine learning  
 
 Face collect.py --> Stores the existing detected face
 
